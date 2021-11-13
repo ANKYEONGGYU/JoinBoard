@@ -1,0 +1,15 @@
+create table info (
+  id varchar2(30),
+  password varchar2(30),
+  mail varchar2(30),
+  name varchar2(30),
+  id_num varchar2(30),
+  id_num_back varchar2(30),
+  year varchar2(30),
+  month varchar2(30),
+  day varchar2(30),
+  hobby varchar2(30),
+  intro varchar2(30),
+  primary key(id)
+);
+commit;
